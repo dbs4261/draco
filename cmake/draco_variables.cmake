@@ -12,10 +12,7 @@
 # License for the specific language governing permissions and limitations under
 # the License.
 
-if(DRACO_CMAKE_DRACO_VARIABLES_CMAKE_)
-  return()
-endif() # DRACO_CMAKE_DRACO_VARIABLES_CMAKE_
-set(DRACO_CMAKE_DRACO_VARIABLES_CMAKE_ 1)
+include_guard()
 
 # Halts generation when $variable_name does not refer to a directory that
 # exists.

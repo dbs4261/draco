@@ -12,10 +12,7 @@
 # License for the specific language governing permissions and limitations under
 # the License.
 
-if(DRACO_CMAKE_DRACO_BUILD_DEFINITIONS_CMAKE_)
-  return()
-endif() # DRACO_CMAKE_DRACO_BUILD_DEFINITIONS_CMAKE_
-set(DRACO_CMAKE_DRACO_BUILD_DEFINITIONS_CMAKE_ 1)
+include_guard()
 
 # Utility for controlling the main draco library dependency. This changes in
 # shared builds, and when an optional target requires a shared library build.

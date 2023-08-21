@@ -12,10 +12,7 @@
 # License for the specific language governing permissions and limitations under
 # the License.
 
-if(DRACO_CMAKE_DRACO_TESTS_CMAKE)
-  return()
-endif()
-set(DRACO_CMAKE_DRACO_TESTS_CMAKE 1)
+include_guard()
 
 # The factory tests are in a separate target to avoid breaking tests that rely
 # on file I/O via the factories. The fake reader and writer implementations

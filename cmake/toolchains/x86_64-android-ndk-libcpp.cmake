@@ -12,10 +12,7 @@
 # License for the specific language governing permissions and limitations under
 # the License.
 
-if(DRACO_CMAKE_TOOLCHAINS_X86_64_ANDROID_NDK_LIBCPP_CMAKE_)
-  return()
-endif()
-set(DRACO_CMAKE_TOOLCHAINS_X86_64_ANDROID_NDK_LIBCPP_CMAKE_ 1)
+include_guard()
 
 include("${CMAKE_CURRENT_LIST_DIR}/android-ndk-common.cmake")
 

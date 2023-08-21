@@ -12,10 +12,7 @@
 # License for the specific language governing permissions and limitations under
 # the License.
 
-if(DRACO_CMAKE_TOOLCHAINS_ANDROID_NDK_COMMON_CMAKE_)
-  return()
-endif()
-set(DRACO_CMAKE_TOOLCHAINS_ANDROID_NDK_COMMON_CMAKE_ 1)
+include_guard()
 
 # Toolchain files do not have access to cached variables:
 # https://gitlab.kitware.com/cmake/cmake/issues/16170. Set an intermediate

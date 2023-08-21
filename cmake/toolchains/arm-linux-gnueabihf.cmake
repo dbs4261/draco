@@ -12,10 +12,7 @@
 # License for the specific language governing permissions and limitations under
 # the License.
 
-if(DRACO_CMAKE_TOOLCHAINS_ARM_LINUX_GNUEABIHF_CMAKE_)
-  return()
-endif() # DRACO_CMAKE_TOOLCHAINS_ARM_LINUX_GNUEABIHF_CMAKE_
-set(DRACO_CMAKE_TOOLCHAINS_ARM_LINUX_GNUEABIHF_CMAKE_ 1)
+include_guard()
 
 set(CMAKE_SYSTEM_NAME "Linux")
 

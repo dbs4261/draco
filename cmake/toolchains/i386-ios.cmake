@@ -12,10 +12,7 @@
 # License for the specific language governing permissions and limitations under
 # the License.
 
-if(DRACO_CMAKE_TOOLCHAINS_i386_IOS_CMAKE_)
-  return()
-endif()
-set(DRACO_CMAKE_TOOLCHAINS_i386_IOS_CMAKE_ 1)
+include_guard()
 
 if(XCODE)
   message(FATAL_ERROR "This toolchain does not support Xcode.")

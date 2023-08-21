@@ -12,9 +12,7 @@
 # License for the specific language governing permissions and limitations under
 # the License.
 
-if(DRACO_CMAKE_TOOLCHAINS_ANDROID_CMAKE_)
-  return()
-endif() # DRACO_CMAKE_TOOLCHAINS_ANDROID_CMAKE_
+include_guard()
 
 # Additional ANDROID_* settings are available, see:
 # https://developer.android.com/ndk/guides/cmake#variables

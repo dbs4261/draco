@@ -12,10 +12,7 @@
 # License for the specific language governing permissions and limitations under
 # the License.
 
-if(DRACO_CMAKE_DRACO_CPU_DETECTION_CMAKE_)
-  return()
-endif() # DRACO_CMAKE_DRACO_CPU_DETECTION_CMAKE_
-set(DRACO_CMAKE_DRACO_CPU_DETECTION_CMAKE_ 1)
+include_guard()
 
 # Detect optimizations available for the current target CPU.
 macro(draco_optimization_detect)

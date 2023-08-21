@@ -12,10 +12,7 @@
 # License for the specific language governing permissions and limitations under
 # the License.
 
-if(DRACO_CMAKE_TOOLCHAINS_ARM_IOS_COMMON_CMAKE_)
-  return()
-endif()
-set(DRACO_CMAKE_ARM_IOS_COMMON_CMAKE_ 1)
+include_guard()
 
 set(CMAKE_SYSTEM_NAME "Darwin")
 if(CMAKE_OSX_SDK)

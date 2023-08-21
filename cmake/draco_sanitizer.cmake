@@ -12,10 +12,7 @@
 # License for the specific language governing permissions and limitations under
 # the License.
 
-if(DRACO_CMAKE_DRACO_SANITIZER_CMAKE_)
-  return()
-endif() # DRACO_CMAKE_DRACO_SANITIZER_CMAKE_
-set(DRACO_CMAKE_DRACO_SANITIZER_CMAKE_ 1)
+include_guard()
 
 # Handles the details of enabling sanitizers.
 macro(draco_configure_sanitizer)

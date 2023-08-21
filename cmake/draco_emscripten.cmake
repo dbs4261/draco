@@ -12,9 +12,7 @@
 # License for the specific language governing permissions and limitations under
 # the License.
 
-if(DRACO_CMAKE_DRACO_EMSCRIPTEN_CMAKE_)
-  return()
-endif() # DRACO_CMAKE_DRACO_EMSCRIPTEN_CMAKE_
+include_guard()
 
 # Checks environment for Emscripten prerequisites.
 macro(draco_check_emscripten_environment)

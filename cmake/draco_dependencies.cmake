@@ -12,10 +12,7 @@
 # License for the specific language governing permissions and limitations under
 # the License.
 
-if(DRACO_CMAKE_DRACO_DEPENDENCIES_CMAKE)
-  return()
-endif()
-set(DRACO_CMAKE_DRACO_DEPENDENCIES_CMAKE 1)
+include_guard()
 
 include("${draco_root}/cmake/draco_variables.cmake")
 

@@ -12,10 +12,7 @@
 # License for the specific language governing permissions and limitations under
 # the License.
 
-if(DRACO_CMAKE_DRACO_HELPERS_CMAKE_)
-  return()
-endif() # DRACO_CMAKE_DRACO_HELPERS_CMAKE_
-set(DRACO_CMAKE_DRACO_HELPERS_CMAKE_ 1)
+include_guard()
 
 # Kills build generation using message(FATAL_ERROR) and outputs all data passed
 # to the console via use of $ARGN.
